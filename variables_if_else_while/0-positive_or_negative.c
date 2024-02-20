@@ -9,7 +9,7 @@
  * Return - 0 Successful
  */
 
-/* Description: 'the program's description */
+/* main - Program entry point */
 int main(void)
 {
 	int n;
