@@ -9,6 +9,7 @@
  * Return - 0 Successful
  */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
