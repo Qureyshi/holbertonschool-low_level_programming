@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * This is a multiline comment
- * comments in C source code
+ * main - This is the entry point of the code
+ *
+ * Return - 0 Successful
  */
 
 int main(void)
