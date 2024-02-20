@@ -9,7 +9,7 @@
  * Return - 0 Successful
  */
 
-/* betty style doc for function main goes there */
+/* Description: 'the program's description */
 int main(void)
 {
 	int n;
