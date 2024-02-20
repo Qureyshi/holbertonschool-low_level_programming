@@ -9,10 +9,13 @@
 
 int main(void)
 {
-	int num;
+	char c;
 
-	for (num = 0 ; num <= 15 ; num++)
-		printf("%x", num);
+	for (c = '0'; c <= '9'; c++)
+		putchar(c);
+
+	for (c = 'a'; c <= 'f'; c++)
+		putchar(c);
 
 	putchar('\n');
 
