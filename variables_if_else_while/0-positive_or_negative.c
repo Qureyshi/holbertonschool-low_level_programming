@@ -4,6 +4,8 @@
 /**
  * main - This is the entry point of the code
  *
+ * Description: 'the program's description
+ *
  * Return - 0 Successful
  */
 
