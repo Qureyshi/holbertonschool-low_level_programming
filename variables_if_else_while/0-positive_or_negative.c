@@ -2,14 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - This is the entry point of the code
+ * main - Entry point.
  *
- * Description: 'the program's description
- *
- * Return - 0 Successful
+ * Return: Always 0 (Success)
  */
 
-/* main - Program entry point */
 int main(void)
 {
 	int n;
