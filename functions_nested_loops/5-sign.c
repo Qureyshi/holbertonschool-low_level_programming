@@ -7,7 +7,7 @@
  * @n:the int to check
  * Return: Always 0 (Success)
  */
-print_sign(int n)
+int print_sign(int n)
 {
 
 	if (n > 0)
