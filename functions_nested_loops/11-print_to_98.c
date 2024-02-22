@@ -18,8 +18,8 @@ void print_to_98(int n)
 
 			if (a != 98)
 			{
-				printf(",";
-				printf(" ";
+				printf(",");
+				printf(" ");
 			}	
 	else if (n > 98)
                 for (b = n ; b >= 98 ; b--)
@@ -28,8 +28,8 @@ void print_to_98(int n)
 
                         if (b != 98)
 			{
-				printf(",";
-				printf(" ";
+				printf(",");
+				printf(" ");
 			}
 		}
 	else if (n == 98)
