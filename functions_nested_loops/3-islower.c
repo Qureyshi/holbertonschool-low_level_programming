@@ -3,7 +3,7 @@
 #include <time.h>
 #include "main.h"
 /**
- * -islower.c - Entry point.
+ * -islower - Entry point.
  *
  * Return: Always 0 (Success)
  */
