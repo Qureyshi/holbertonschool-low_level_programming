@@ -26,5 +26,5 @@ void print_to_98(int n)
 			_putchar(' ');
 		}
 	else if (n == 98)
-		printf("%d", n);
+		printf("%d\n", n);
 }
