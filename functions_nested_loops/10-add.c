@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * add - Entry point.
- * @n: sum
+ * @a: sum
  * Return: Always 0 (Success)
  */
 int add(int a, int b)
