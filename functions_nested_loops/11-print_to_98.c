@@ -14,16 +14,23 @@ void print_to_98(int n)
 	if (n < 98)
 		for (a = n ; a <= 98 ; a++)
 		{	
-			_putchar(a + '0');
-			_putchar(',');
-			_putchar(' ');
-		}	
+			printf("%d\n", a);
+
+			if (a != 98)
+			{
+				printf(",";
+				printf(" ";
+			}	
 	else if (n > 98)
                 for (b = n ; b >= 98 ; b--)
 		{	
-	                _putchar(b + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d\n", b);
+
+                        if (b != 98)
+			{
+				printf(",";
+				printf(" ";
+			}
 		}
 	else if (n == 98)
 		printf("%d\n", n);
