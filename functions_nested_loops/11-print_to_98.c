@@ -3,7 +3,7 @@
 #include <time.h>
 #include "main.h"
 /**
- * print_alphabet - Entry point.
+ * print_to_98 - Entry point.
  * @n: number
  * Return: Always 0 (Success)
  */
