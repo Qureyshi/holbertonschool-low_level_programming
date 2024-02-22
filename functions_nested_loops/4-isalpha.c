@@ -7,7 +7,7 @@
  * @c: the character to check
  * Return: Always 0 (Success)
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if ((c <= 'z' && c >= 'a') || (c >= 'A' && c <= 'Z'))
