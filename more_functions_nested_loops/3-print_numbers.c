@@ -2,8 +2,8 @@
 
 /**
  * print_numbers(void) - uppercase letters
- * @a: character to check
- * @b: character to check
+ * @i: character to check
+ * 
  * Return: 0 or 1
  */
 void print_numbers(void)
