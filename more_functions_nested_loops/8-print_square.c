@@ -6,7 +6,7 @@
  *
  * Return: 0 or 1
  */
-void print_dquare(int size)
+void print_square(int size)
 {
 	int i, j;
 
