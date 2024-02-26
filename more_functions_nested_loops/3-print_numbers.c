@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - uppercase letters
- * @c: character to check
+ *
  * Return: 0 or 1
  */
 void print_numbers(void)
