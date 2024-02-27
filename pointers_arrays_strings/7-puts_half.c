@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -puts_half charreturns the length of a string
+ * puts_half charreturns the length of a string
  * @str: string to evaluate
  *
  * Return: the length of the string
