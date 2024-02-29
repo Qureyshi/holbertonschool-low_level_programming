@@ -1,25 +1,38 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * cap_string - concatenate two strings
- * @c: char string to concatenate to
+ * cap_string - Capitalizes all words of a string.
+ * @str: The string to be capitalized.
  *
- * Return: pointer to resulting string `dest`
+ * Return: A pointer to the changed string.
  */
-
-char *cap_string(char *c)
+char *cap_string(char *str)
 {
-	int i;
+	int index = 0;
 
-	for (i = 0; c[i] != '\0'; i++)
+	while (str[index])
 	{
-		if (c[i] > 96 && c[i] < 123)
-		{
-			if(!(c[i - 1] > 64 && c[i - 1] < 91 && c[i - 1] > 96 && c[i - 1] < 123))
-				c[i] -= 32;
-		}
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+		str[index - 1] == '\t' ||
+		str[index - 1] == '\n' ||
+		str[index - 1] == ',' ||
+		str[index - 1] == ';' ||
+		str[index - 1] == '.' ||
+		str[index - 1] == '!' ||
+		str[index - 1] == '?' ||
+		str[index - 1] == '"' ||
+		str[index - 1] == '(' ||
+		str[index - 1] == ')' ||
+		str[index - 1] == '{' ||
+		str[index - 1] == '}' ||
+		index == 0)
+			str[index] -= 32;
+	
+		index++;
 	}
 
-	return (c);
-
+	return (str);
 }
