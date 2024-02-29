@@ -4,7 +4,7 @@
  * _strcmp - concatenate two strings
  * @s1: char string to concatenate to
  * @s2: char string
- * 
+ *
  * Return: pointer to resulting string `dest`
  */
 
