@@ -8,17 +8,17 @@
  * Return: pointer to resulting string `dest`
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	int i;
-	for (i = 0; *[i] != '\0'; i++)
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (*[i] > 96 && c[i] < 123)
+		if (c[i] > 96 && c[i] < 123)
 		{
-			*[i] -= 32;
+			c[i] -= 32;
 		}
 	}
 
-	return (*);
+	return (c);
 
 }
