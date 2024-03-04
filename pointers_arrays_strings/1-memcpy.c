@@ -2,8 +2,8 @@
 
 /**
  * _memcpy - returns the length of a string
- * @s: string to evaluate
- * @b: string to evaluate
+ * @dest: string to evaluate
+ * @src: string to evaluate
  * @n: string to evaluate
  *
  * Return: the length of the string
