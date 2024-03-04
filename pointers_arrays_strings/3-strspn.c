@@ -3,7 +3,7 @@
 /**
  * _strspn- returns the length of a string
  * @s: string to evaluate
- * @:ccept string to evaluate
+ * @accept: string to evaluate
  *
  * Return: the length of the string
  */
