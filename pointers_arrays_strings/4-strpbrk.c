@@ -7,7 +7,7 @@
  *
  * Return: the length of the string
  */
-unsigned int _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
 	char* k;
