@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strchr- returns the length of a string
  * @s: string to evaluate
