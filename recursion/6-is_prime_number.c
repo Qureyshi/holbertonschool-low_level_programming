@@ -8,7 +8,7 @@
  * Return: the length of the string
  */
 int check(int m, int i)
-{	if (n % i == 0)
+{	if (m % i == 0)
 		return (0);
 	if (i >= m/2)
 		return (1);
