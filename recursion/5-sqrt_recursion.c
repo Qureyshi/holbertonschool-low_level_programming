@@ -1,24 +1,34 @@
 #include "main.h"
 
 /**
- *  _sqrt_recursion - returns the length of a string
+ * check - returns the length of a string
+ * @m: string to evaluate
+ * @i: string to evaluate
+ *
+ * Return: the length of the string
+ */
+int check(int m, int i)
+{
+	if (i * i == m)
+		return (i);
+	if (i * i > m)
+		return (-1);
+	else
+		return (check(m, i + 1));
+}
+/**
+ * _sqrt_recursion - returns the length of a string
  * @n: string to evaluate
  *
  * Return: the length of the string
  */
-
 int _sqrt_recursion(int n)
 {
-	int a;
-	a = 0;
-
-	if ( a*a == n)
-		return (a);
+	if (n <= 1)
+		return (0);
+	if (n == 2)
+		return (1);
 	else
-	{
-		a++;
-		_sqrt_recursion(n);
-	}
-
+		return (check(n, 1));
 }
 
