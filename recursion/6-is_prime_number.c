@@ -2,8 +2,9 @@
 
 /**
  * is_prime_number - returns the length of a string
- * @x: string to evaluate
- * @y: string to evaluate
+ * @n: string to evaluate
+ * @m: string to evaluate
+ * @i: string to evaluate
  *
  * Return: the length of the string
  */
