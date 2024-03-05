@@ -8,12 +8,13 @@
  * Return: the length of the string
  */
 int check(int m, int i)
-{	if (m % i == 0)
+{
+	if (m % i == 0)
 		return (0);
-	if (i >= m/2)
+	if (i >= m / 2)
 		return (1);
 	else
-		return check(m, i + 1);
+		return (check(m, i + 1));
 
 
 }
@@ -24,6 +25,6 @@ int is_prime_number(int n)
 	if (n == 2)
 		return (1);
 	else
-		return check(n, 2);
+		return (check(n, 2));
 }
 
