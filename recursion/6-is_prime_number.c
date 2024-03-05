@@ -4,7 +4,7 @@
  * check - returns the length of a string
  * @m: string to evaluate
  * @i: string to evaluate
- * 
+ *
  * Return: the length of the string
  */
 int check(int m, int i)
