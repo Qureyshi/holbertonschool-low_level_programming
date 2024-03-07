@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	if( argv[1] && argc[2])
-		printf("%d\n", argv[1] * argv[2]);
+		printf("%d\n", (int)(argv[1]) * (int)(argv[2]));
 		return (0);
 	else	
 		printf("%s\n", "Error");
