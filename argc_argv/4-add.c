@@ -10,7 +10,7 @@
  * Return: the length of the string
  */
 int main(int argc, char *argv[])
-{	
+{
 	int sum = 0, i, j;
 
 	for (i = 1; i < argc; i++)
