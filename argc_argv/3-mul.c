@@ -10,8 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-	if( argv[1] && argc[2])
+	if( argc == 3)
 		printf("%d\n", (int)(argv[1]) * (int)(argv[2]));
 		return (0);
 	else	
