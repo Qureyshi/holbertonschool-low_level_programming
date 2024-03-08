@@ -9,7 +9,7 @@
  * Return: the length of the string
  */
 char *_strstr(char *haystack, char *needle)
-{	
+{
 	int i;
 	int s = 0;
 
