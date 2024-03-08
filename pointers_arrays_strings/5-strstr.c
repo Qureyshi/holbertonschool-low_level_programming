@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stddef.h>
-#include <string.h>
 #include <stdio.h>
 /**
  * _strstr- returns the length of a string
@@ -11,10 +10,23 @@
  */
 char *_strstr(char *haystack, char *needle)
 {	
-	char *ret;
+	int i;
+	int s = 0;
 
-	ret = strstr(haystack, needle);
+	while (needle[s] != '\0')
+		s++;
 
-	return (0);
-
+	while (*haystack)
+	{
+		for (i = 0; needle[i]; i++)
+		{
+			if (haystack[i] != needle[i])
+				break;
+		}
+		if (i != s)
+			haystack++;
+		else
+			return (haystack);
+	}
+	return (NULL);
 }
