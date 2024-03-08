@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdio.h>
 /**
- * print_diagsums: returns the length of a string
+ * print_diagsums - returns the length of a string
  * @a: string
  * @size: string
  *
