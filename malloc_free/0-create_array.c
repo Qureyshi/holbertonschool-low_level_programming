@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -10,7 +10,6 @@ include "main.h"
 char *create_array(unsigned int size, char c)
 {
 	char *a;
-	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
