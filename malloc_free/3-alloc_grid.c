@@ -20,7 +20,7 @@ int **alloc_grid(int width, int height)
 	if (a == NULL)
 		return (NULL);
 
-	for (int i = 0; i < r * c; i++)
+	for (i = 0; i < width * height; i++)
 		ptr[i] = 0;
 
 	return (a);
