@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - allocate memory with malloc
- * @s1: unsigned int type
- * @s2: unsigned int type
- * @n: unsigned int type
+ * _calloc - allocate memory with malloc
+ * @nmemb: unsigned int type
+ * @size: unsigned int type
  * Return: return pointer
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 	unsigned int count;
