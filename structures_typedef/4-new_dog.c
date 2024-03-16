@@ -5,7 +5,7 @@
 /**
  * new_dog - initializes a structure of type dog
  * @name: pointer to structure
- * @nage: pointer to structure
+ * @age: pointer to structure
  * @owner: pointer to structure
  *
  * Return: void
