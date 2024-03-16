@@ -3,10 +3,8 @@
 #include "dog.h"
 
 /**
- * new_dog - initializes a structure of type dog
- * @name: pointer to structure
- * @age: pointer to structure
- * @owner: pointer to structure
+ * free_dog - initializes a structure of type dog
+ * @d: pointer to structure
  *
  * Return: void
  */
