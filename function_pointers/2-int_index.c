@@ -5,6 +5,7 @@
  * @array: char string
  * @size: function pointer that takes a string argument
  * @cmp: function pointer that takes a string argument
+ * Return: index
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
