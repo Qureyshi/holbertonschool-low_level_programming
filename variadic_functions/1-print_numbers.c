@@ -5,7 +5,7 @@
 /**
  * print_numbers - sums all arguments passed
  * @n: number of arguments
- * @seperator: number of arguments
+ * @separator: number of arguments
  *
  * Return: sum of arguments
  */
