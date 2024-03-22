@@ -1,0 +1,22 @@
+#include <stdarg.h>
+
+/**
+ * sum_them_all - sums all arguments passed
+ * @n: number of arguments
+ *
+ * Return: sum of arguments
+ */
+int sum_them_all(const unsigned int n, ...)
+{
+	unsigned int i;
+	int Sum;
+	va_list ptr;
+
+	va_start(ptr, n);
+	 
+	for (int i = 0; i < n; i++)
+		Sum += va_arg(ptr, int);
+	va_end(ptr);
+
+	return Sum;
+}
