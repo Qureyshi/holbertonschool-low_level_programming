@@ -1,5 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * list_len - Prints all the elements of a list_t list.
