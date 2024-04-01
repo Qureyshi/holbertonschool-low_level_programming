@@ -4,13 +4,15 @@
 #include <stdlib.h>
 
 /**
- * list_len - Prints all the elements of a list_t list.
- * @h: The list_t list.
+ * add_node - Prints all the elements of a list_t list.
+ * @head: The list_t list.
+ * @str: The list_t list.
  *
  * Return: The number of nodes in h.
  */
 
-list_t *add_node(list_t **head, const char *str){
+list_t *add_node(list_t **head, const char *str)
+{
 	char *dup;
 	int len = 0;
 	list_t *lk;
@@ -26,7 +28,7 @@ list_t *add_node(list_t **head, const char *str){
 		free(lk);
 		return (NULL);
 	}
-	while(dup[len] != '\0')
+	while (dup[len] != '\0')
 	{
 		len++;
 	}
@@ -34,5 +36,5 @@ list_t *add_node(list_t **head, const char *str){
 	lk->len = len;
 	lk->next = *head;
 	*head =  lk;
-	return(lk);
+	return (lk);
 }
