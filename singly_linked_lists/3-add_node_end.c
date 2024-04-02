@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * add_node - Prints all the elements of a list_t list.
+ * add_node_end - Prints all the elements of a list_t list.
  * @head: The list_t list.
  * @str: The list_t list.
  *
