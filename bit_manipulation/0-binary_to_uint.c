@@ -9,10 +9,11 @@
 unsigned int binary_to_uint(const char *b)
 {
 int bin, dec = 0;
+int i = 0;
      
     bin = atoi(b);
  
-    for(int i = 0; bin; i++, bin /= 10) 
+    for(i; bin; i++, bin /= 10) 
         if (bin % 10)
             dec += pow(2, i);
  
