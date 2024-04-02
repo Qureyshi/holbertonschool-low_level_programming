@@ -13,7 +13,7 @@ int i = 0;
      
     bin = atoi(b);
  
-    for(i; bin; i++, bin /= 10) 
+    for(; bin; i++, bin /= 10) 
         if (bin % 10)
             dec += pow(2, i);
  
