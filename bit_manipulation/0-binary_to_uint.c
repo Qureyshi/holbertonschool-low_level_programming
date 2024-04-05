@@ -8,16 +8,18 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-int bin, dec = 0;
-int i = 0;
-     
-    bin = atoi(b);
- 
-    for(; bin; i++, bin /= 10) 
-        if (bin % 10)
-            dec += pow(2, i);
- 
-    printf("%d", dec);
+	int num, temp;
+	unsigned int dec = 0;
+	int base = 1;
 
-
+	num = atoi(b);
+	temp = num;	
+	while (temp) 
+	{
+		int last_digit = temp % 10;
+		temp = temp / 10;
+		dec += last_digit * base;
+		base = base * 2;
+	}
+	return dec;
 }
